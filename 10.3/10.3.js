@@ -10,7 +10,7 @@
 // При клике на кнопку «Гео-локация» необходимо отправить данные серверу и в чат вывести ссылку на https://www.openstreetmap.org/ с вашей гео-локацией. 
 // Сообщение, которое отправит обратно эхо-сервер, не выводить.
 
-const wsUri = "wss://echo.websocket.org/";
+const wsUri = "wss://echo-ws-service.herokuapp.com";
 
 document.addEventListener('DOMContentLoaded', function() {
   const infoOutput = document.querySelector(".info_output");
